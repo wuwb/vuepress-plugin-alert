@@ -1,22 +1,22 @@
 # vuepress-plugin-alert
 
-网站添加通知公告
+Notice announcement added to website
 
-关闭公告后，不再显示。
+No longer display when the announcement is closed.
 
-## 预览
+## preview
 
 ![预览](./snapshot.png)
 
-## 安装
+## install
 
-```
+```bash
 npm i vuepress-plugin-alert -S
 ```
 
-## 配置
+## config
 
-注意配置书写的地方，不是传入插件。
+Note where the configuration is written, not passed into the plugin.
 
 ```ts
 import { alertPlugin } from "vuepress-plugin-alert";
